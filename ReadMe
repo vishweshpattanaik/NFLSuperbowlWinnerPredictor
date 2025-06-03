@@ -1,0 +1,45 @@
+🏈 NFL Super Bowl Prediction (2003–2023)
+This project predicts the probability of an NFL team winning the Super Bowl based on their regular season performance using machine learning.
+We dive deep into over 20 years of NFL team stats, engineer meaningful features, train multiple models, and test our predictions. 
+
+
+
+🔍 What This Project Does:
+- Analyzes NFL team season data from 2003 to 2023
+
+- Engineers features like turnover percentage, score efficiency, and point differentials
+
+- Trains a Random Forest Classifier to predict if a team will win the Super Bowl
+
+- Calculates and ranks each team’s win probability
+
+- Tests the model on new unseen season data (e.g. 2022)
+
+- Visualizes trends and top predictions
+
+
+✅ Which Model was Chosen?
+- We chose Random Forest due to better performance on the minority class (Super Bowl winners).
+
+
+📈 Visualizations
+- Distribution of win percentages
+
+- Heatmap of feature correlations
+
+- Top 10 predicted teams for Super Bowl (by win probability)
+
+
+🔬 Future Improvements
+- Use better dataset with less headings
+
+- The data in the dataset is too much to get in season for proper modelling of the the year's winners using that year's regular season stats.
+
+- Integrate playoff performance
+
+- Find new ways like web apps to display the findings (eg a web based dashboard)
+
+🧠 Built With
+- Python, Pandas, Scikit-learn, Seaborn, Matplotlib
+
+- Jupyter Notebooks
